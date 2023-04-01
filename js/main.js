@@ -209,7 +209,7 @@
       var contactName = e("#contact-name").val();
       var contactEmail = e("#contact-email").val();
       var message = e("#contact-message").val();
-      var message_encode = `https://wa.me/+2348046220065?text=Hi my name is ${contactName},Email:${contactEmail}, ${message}`;
+      var message_encode = `https://wa.me/+2347046220065?text=Hi my name is ${contactName},Email:${contactEmail}, ${message}`;
 
       console.log(contactName, contactEmail, message);
 
