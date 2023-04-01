@@ -211,7 +211,7 @@
       var message = e("#contact-message").val();
       var message_encode = `https://wa.me/+2347046220065?text=Hi my name is ${contactName},Email:${contactEmail}, ${message}`;
 
-      console.log(contactName, contactEmail, message);
+      // console.log(contactName, contactEmail, message);
 
       if (contactName === "" || contactEmail === "" || message === "") {
         e(".contact-feedback")
